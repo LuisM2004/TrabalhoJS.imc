@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+body{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#1c1c1c;
+    
+}
+.container{
+    width: 500px;
+    background-color: #fff;
+    padding: 25px 95px;
+    box-shadow: 0px 20px 25px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    
+}
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    border: 2px solid #d2d2d2;
+    outline: none;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+button{
+    width: 100%;
+    padding: 2px;
+    box-shadow: 0 2 2.5px;
+    margin-top: 5px;
+    background-color: #1c1c1c;
+    color: #d2d2d2;
+    border: 2px solid #d2d2d2;
+    border-radius: 5px;
+    cursor: pointer;
+    
+    
+}
+#tabela{
+    width: 115%;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid #d2d2d2;
+    color: #1c1c1c;
+    border-radius: 5px;
+
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+        text-decoration: none;
+        font-size: 15px;
+
+    }
+    
+    .container{
+        width: 380px;
+        padding: 50px 30px;
+        border-radius: 15px;
+        box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.30);
+
+    }
+    input{
+        width: 95%;
+        height: 60px;
+        outline: none;
+        padding: 0.5 10.5px;
+        margin-top: 8px;
+    }
+    button{
+        width: 95%;
+
+    }
+    #tabela{
+        width: 100%;
+    }
+
+}
